@@ -1,0 +1,45 @@
+{
+  "name": "blockchain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.",
+  "dependencies": {
+    "@helia/unixfs": "^4.0.2",
+    "@openzeppelin/contracts": "^5.2.0",
+    "@sendgrid/mail": "^8.1.4",
+    "axios": "^1.8.4",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "ethers": "^6.13.5",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "form-data": "^4.0.2",
+    "fs": "^0.0.1-security",
+    "helia": "^5.2.1",
+    "mailgun-js": "^0.22.0",
+    "mongoose": "^8.12.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.10.0",
+    "passport": "^0.7.0",
+    "passport-google-oauth20": "^2.0.0",
+    "tlsh": "^1.0.8",
+    "uuid": "^11.1.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "dotenv": "^16.4.7",
+    "eslint": "^9.23.0",
+    "hardhat": "^2.22.19",
+    "mocha": "^10.8.2",
+    "nodemon": "^3.1.9"
+  }
+}
