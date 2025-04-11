@@ -50,3 +50,20 @@ A secure and decentralized file transfer system built with **Node.js**, **IPFS**
 
 ---
 
+
+---
+
+Let me know if you want me to include a section for **Postman Collection**, **Smart Contract deployment**, or **frontend instructions**!
+please Contact me through Gmail: haemowaekk@gmail.com
+instagram: @servitek.inc
+LinkedIn: A Sree Kannan
+
+
+📎 API Endpoints (Sample)
+Method	Endpoint	Description
+POST:	/register	Register new user
+POST:	/login	Login with IPFS hash & credentials
+POST:	/createCompany	Admin creates a company
+POST:	/approveUser	Approve company employee
+POST:	/upload	Upload and encrypt file
+GET:	/download/:cid	Decrypt and download file
